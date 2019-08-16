@@ -1,0 +1,446 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20190812.192645.1680.0.001.json",
+    "dumpEventTime": "2019-08-12T19:26:45Z",
+    "dumpEventTimeStamp": "1565663205427",
+    "processId": 1680,
+    "cwd": "C:\\Users\\Travis\\Desktop\\SDGKU Work\\107\\lab 1",
+    "commandLine": [
+      "node",
+      "app.js"
+    ],
+    "nodejsVersion": "v12.8.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.8.0",
+      "v8": "7.5.288.22-node.16",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.1",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.8.0/node-v12.8.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.8.0/node-v12.8.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.8.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17134",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 12863625,
+        "nice": 0,
+        "sys": 10455250,
+        "idle": 1268205968,
+        "irq": 3216546
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 5852031,
+        "nice": 0,
+        "sys": 3021781,
+        "idle": 1282650828,
+        "irq": 147828
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 20719234,
+        "nice": 0,
+        "sys": 4682390,
+        "idle": 1266123015,
+        "irq": 114500
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 10952578,
+        "nice": 0,
+        "sys": 2248328,
+        "idle": 1278323734,
+        "irq": 89921
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 13497562,
+        "nice": 0,
+        "sys": 4823453,
+        "idle": 1273203625,
+        "irq": 79156
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 6155359,
+        "nice": 0,
+        "sys": 1557515,
+        "idle": 1283811765,
+        "irq": 58531
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 12146484,
+        "nice": 0,
+        "sys": 2549218,
+        "idle": 1276828937,
+        "irq": 68343
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 19575093,
+        "nice": 0,
+        "sys": 3771953,
+        "idle": 1268177593,
+        "irq": 68921
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 11208546,
+        "nice": 0,
+        "sys": 2417500,
+        "idle": 1277898593,
+        "irq": 59796
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 8448312,
+        "nice": 0,
+        "sys": 2568109,
+        "idle": 1280508187,
+        "irq": 53625
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 10354656,
+        "nice": 0,
+        "sys": 3091703,
+        "idle": 1278078250,
+        "irq": 88390
+      },
+      {
+        "model": "AMD Ryzen 5 1600X Six-Core Processor           ",
+        "speed": 3593,
+        "user": 10110281,
+        "nice": 0,
+        "sys": 2679359,
+        "idle": 1278734968,
+        "irq": 119453
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "2c:fd:a1:bf:70:fe",
+        "address": "2600:6c4e:17f:eeca:0:e10d:56fb:1869",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "2c:fd:a1:bf:70:fe",
+        "address": "2600:6c4e:17f:eeca:b4d1:2767:c564:120d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "2c:fd:a1:bf:70:fe",
+        "address": "fe80::b4d1:2767:c564:120d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 12
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "2c:fd:a1:bf:70:fe",
+        "address": "192.168.1.206",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-K3SV6M6"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff730d86d99",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff730d8b38c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28780"
+    },
+    {
+      "pc": "0x00007ff730d8a338",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24600"
+    },
+    {
+      "pc": "0x00007ff730e74f3b",
+      "symbol": "v8::base::CPU::has_sse+37691"
+    },
+    {
+      "pc": "0x00007ff73165bc1e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff731643f6a",
+      "symbol": "v8::SharedArrayBuffer::Externalize+842"
+    },
+    {
+      "pc": "0x00007ff7314d567c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7314e92ad",
+      "symbol": "v8::internal::Factory::AllocateRawFixedArray+61"
+    },
+    {
+      "pc": "0x00007ff7314f0d74",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller+52"
+    },
+    {
+      "pc": "0x00007ff7314f0d31",
+      "symbol": "v8::internal::Factory::NewFixedArray+65"
+    },
+    {
+      "pc": "0x00007ff73153e69e",
+      "symbol": "v8::debug::Script::GetIsolate+6478"
+    },
+    {
+      "pc": "0x00007ff7312d2663",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+181731"
+    },
+    {
+      "pc": "0x00007ff731a7b06d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+614605"
+    },
+    {
+      "pc": "0x000003cd7aa04624",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2724274176,
+    "totalCommittedMemory": 2724274176,
+    "usedMemory": 2688823952,
+    "availableMemory": 16987120,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16757248,
+        "used": 0,
+        "available": 16757248
+      },
+      "old_space": {
+        "memorySize": 2502656,
+        "committedMemory": 2502656,
+        "capacity": 1512440,
+        "used": 1512440,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 155136,
+        "used": 155136,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 528384,
+        "capacity": 196400,
+        "used": 196400,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1784438784,
+        "committedMemory": 1784438784,
+        "capacity": 1784413680,
+        "used": 1784413680,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 902512640,
+        "committedMemory": 902512640,
+        "capacity": 902510880,
+        "used": 902510880,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 2.343,
+    "kernelCpuSeconds": 0.812,
+    "cpuConsumptionPercent": 157.75,
+    "maxRss": 2734616576,
+    "pageFaults": {
+      "IORequired": 674925,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2,
+      "writes": 7
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\Users\\Travis\\Desktop\\SDGKU Work\\107\\lab 1",
+    "=ExitCode": "00000000",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Travis\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-K3SV6M6",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ESET_OPTIONS": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Travis",
+    "LOCALAPPDATA": "C:\\Users\\Travis\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-K3SV6M6",
+    "NUMBER_OF_PROCESSORS": "12",
+    "OneDrive": "C:\\Users\\Travis\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.3.7-hotspot\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\Users\\Travis\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Travis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Travis\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Travis\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "0101",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files\\Intel\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Travis\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Travis\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-K3SV6M6",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-K3SV6M6",
+    "USERNAME": "Travis",
+    "USERPROFILE": "C:\\Users\\Travis",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}
